@@ -1,0 +1,48 @@
+body {
+	font-family: sans-serif;
+}
+td {
+	text-align: center;
+	padding: 2px;
+}
+form.search input[type=text] {
+  padding: 2px;
+  border: 1px solid grey;
+  float: left;
+  background: #f1f1f1;
+}
+/* Style the submit button */
+form.search button {
+  float: left;
+  width: 25px;
+  padding: 2px;
+  background: #2196F3;
+  color: white;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.search button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*form#clear_search {
+  float: left;
+}*/
+/*.table {
+	max-width: 410px;
+}*/
+#next {
+	float: left;
+}
+#back {
+	float: left;
+}
